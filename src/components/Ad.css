@@ -1,0 +1,47 @@
+/* AdminDropdownMenu.css */
+
+  .menu-heading {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+    background-color: transparent;
+    color: #fff;
+    margin: 0;
+    border-radius: 4px 4px 0 0;
+    color: #000000;
+  }
+  
+  .menu-list {
+    list-style: none;
+    padding: 10;
+    margin: 5;
+  }
+  
+  
+  .menu-item:hover {
+    background-color: #f5f5f5;
+  }
+  
+/* In your CSS file */
+.app-icon {
+    width: 44px; /* Adjust the width as needed */
+    height: 44px; /* Adjust the height as needed */
+    margin-right: 25px; /* Add spacing between the icon and app name */
+  }
+  
+  /* AdminDropdownMenu.css */
+
+/* Add margin-bottom to create spacing between items */
+.admin-dropdown-menu ul li {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    margin-bottom: 15px; /* Adjust the margin as needed */
+  }
+  
+  .admin-dropdown-menu ul li:hover {
+    background-color: #f5f5f5;
+  }
+  

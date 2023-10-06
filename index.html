@@ -1,0 +1,32 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>OneSearch</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap">
+    <link
+  rel="stylesheet"
+  href="https://fonts.googleapis.com/css2?family=Merge+One&display=swap"
+/>
+</head>
+<body>
+    <div id="app-name">OneSearch</div>
+    <img id="app-image" src="start.png" alt="App Image"> 
+
+    <!-- the class name to "bottom-button-container" -->
+    <div class="bottom-button-container">
+        <button id="first-page-button">Continue</button>
+    </div>
+
+    <script>
+        // JavaScript to handle navigation
+        const firstPageButton = document.getElementById('first-page-button');
+        
+        firstPageButton.addEventListener('click', () => {
+          // Navigate to page2.html
+          window.location.href = 'page2.html';
+        });
+    </script>
+</body>
+</html>

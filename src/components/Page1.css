@@ -1,0 +1,78 @@
+.continue-button2 {
+    margin-top: 500px; /* Add margin to move the button down */
+    background-color: #F5F8FD; /* Button background color */
+    color: #3E90F0; /* Button text color */
+    padding: 20px 50px; /* Padding around the button text */
+    border: none; /* Remove button border */
+    cursor: pointer; /* Add a pointer cursor on hover */
+    font-size: 18px; /* Font size */
+    font-weight: bold;
+    border-radius: 10px; 
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  .page1-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: flex-start;
+  }
+
+  .text-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%; /* Adjust the width as needed */
+    margin-top: 20px;
+  }
+  
+  .left-text {
+    flex-basis: 30%;
+    text-align: left;
+    text-align: center; /* Center-align the middle text */
+    text-align: center;
+    font-family: 'Open Sans', sans-serif; /* Apply Open Sans font to all text elements */
+    font-weight: light;
+    font-size: 30px;
+    margin-top: 220px;
+    color: #434343; 
+  }
+
+  .center-text {
+    flex-basis: 30%;
+    text-align: center; /* Center-align the middle text */
+    font-family: 'Open Sans', sans-serif; /* Apply Open Sans font to all text elements */
+    font-weight: light;
+    font-size: 30px;
+    margin-top: 220px;
+    color: #434343; 
+  }
+
+  .right-text {
+    flex-basis: 30%;
+    text-align: center; /* Center-align the middle text */
+    font-family: 'Open Sans', sans-serif; /* Apply Open Sans font to all text elements */
+    font-weight: light;
+    font-size: 30px;
+    margin-top: 220px;
+    color: #434343; 
+  }
+
+  .sign-in-button2 {
+    margin-top: 280px; /* Add margin to move the button down */
+    background-color: #F5F8FD; /* Button background color */
+    color: #3E90F0; /* Button text color */
+    padding: 18px 50px; /* Padding around the button text */
+    border: none; /* Remove button border */
+    cursor: pointer; /* Add a pointer cursor on hover */
+    font-size: 18px; /* Font size */
+    font-weight: bold;
+    border-radius: 10px; 
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  .sign-in-button2:hover {
+    background-color: #3E90F0; /* Button background color on hover */
+    color: #F5F8FD;
+  }

@@ -1,0 +1,38 @@
+/* page2.css */
+
+/* Style the button */
+#next-page-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px; /* Optional: Add rounded corners */
+    margin-bottom: 20px;
+  }
+  
+  /* Hover effect */
+  #next-page-button:hover {
+    background-color: #0056b3;
+  }
+  
+/* page2.css */
+
+/* Style the page content container */
+.page-content {
+    padding: 20px;
+  }
+  
+  /* Style the product image container */
+  #product-image-container {
+    text-align: center; /* Center the image horizontally */
+    margin-bottom: 400px; /* Adjust the top margin as needed */
+  }
+  
+  /* Style the product image */
+  #product-image {
+    max-width: 100%; /* Ensure the image doesn't exceed its container */
+    height: auto; /* Maintain aspect ratio */
+  }
+  

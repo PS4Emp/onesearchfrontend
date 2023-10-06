@@ -1,0 +1,138 @@
+/* Page2.css */
+
+.page2-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100vh;
+        justify-content: flex-start;
+      
+  }
+  
+  .page2-product-image {
+    display: block;
+    margin: 10px auto;
+    max-width: 100%;
+  }
+  
+  .sign-in-container {
+    background-color: transparent; /* Transparent background */
+    border: none; /* Remove the stroke */
+    padding: 30px;
+    width: 80%;
+    max-width: 400px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  h2 {
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif; /* Open Sans font */
+    font-weight: 300; /* Light weight */
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Email and Password boxes */
+  .input-box {
+    background-color: #ffffff; /* Light gray background */
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 30px;
+    width: 100%;
+    max-width: 300px;
+    font-size: 20px;
+    color: #000;
+  }
+  
+  .input-box:focus + .black-box {
+    background-color: #f5f8fd; /* F5F8FD background color */
+    color: #3e90f0; /* 3E90F0 text color */
+    padding: 10px;
+    margin-top: 5px; /* Adjust margin-top as needed */
+    border-radius: 5px;
+  }
+  /* Or text */
+  .or-text {
+    color: #D9D9D9;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  /* Sign in with Google */
+  .google-sign-in-text {
+    color: #3e90f0; /* #3E90F0 color */
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Continue button */
+  .continue-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 80px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .continue-button:hover {
+    background-color: #0056b3;
+  }
+  
+
+  .sign-in-button {
+    margin-top: 70px; /* Add margin to move the button down */
+    background-color: #F5F8FD; /* Button background color */
+    color: #3E90F0; /* Button text color */
+    padding: 18px 50px; /* Padding around the button text */
+    border: none; /* Remove button border */
+    cursor: pointer; /* Add a pointer cursor on hover */
+    font-size: 18px; /* Font size */
+    font-weight: bold;
+    border-radius: 10px; 
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .sign-in-button:hover {
+    background-color: #3E90F0; /* Button background color on hover */
+    color: #F5F8FD;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  .google-sign-in-button {
+    display: flex;
+    align-items: center;
+    background-color: #fff; /* White background */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 40px;
+    text-decoration: none;
+    color: #333;
+    transition: background-color 0.3s ease;
+  }
+  
+  .google-sign-in-button:hover {
+    background-color: #f0f0f0; /* Light gray background on hover */
+  }
+  
+  /* Style for the Google logo image */
+  .google-logo {
+    width: 24px; /* Adjust the width as needed */
+    height: 24px; /* Adjust the height as needed */
+    margin-right: 10px; /* Add spacing between the image and text */
+  }
+  .sign-in-text {
+    flex-grow: .9; /* Allow text to grow and take remaining space */
+  }
+

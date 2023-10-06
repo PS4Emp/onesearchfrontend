@@ -1,0 +1,62 @@
+/* Home.css */
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: flex-start;
+  }
+  
+  /* Add margin to the second product image */
+  .second-product-image {
+    margin-top: 140px; /* Adjust the margin as needed to move it down */
+  }
+  
+  .first-product-image {
+    max-width: 100%; /* Ensure the image doesn't exceed its original width */
+    max-height: 100%; /* Ensure the image doesn't exceed its original height */
+    width: auto; /* Allow the width to adjust while maintaining aspect ratio */
+    height: auto; /* Allow the height to adjust while maintaining aspect ratio */
+    display: block; /* Remove any default inline styles on images */
+    margin: 0 auto; /* Center the image horizontally within its container */
+  }
+
+  /* Home.css */
+
+/* Add styles for the "Continue" button */
+.continue-button {
+    margin-top: 150px; /* Add margin to move the button down */
+    background-color: #F5F8FD; /* Button background color */
+    color: #3E90F0; /* Button text color */
+    padding: 20px 50px; /* Padding around the button text */
+    border: none; /* Remove button border */
+    cursor: pointer; /* Add a pointer cursor on hover */
+    font-size: 18px; /* Font size */
+    font-weight: bold;
+    border-radius: 10px; 
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .continue-button:hover {
+    background-color: #3E90F0; /* Button background color on hover */
+    color: #F5F8FD;
+  }
+  
+  .sign-in-button1 {
+    margin-top: 130px; /* Add margin to move the button down */
+    background-color: #F5F8FD; /* Button background color */
+    color: #3E90F0; /* Button text color */
+    padding: 18px 50px; /* Padding around the button text */
+    border: none; /* Remove button border */
+    cursor: pointer; /* Add a pointer cursor on hover */
+    font-size: 18px; /* Font size */
+    font-weight: bold;
+    border-radius: 10px; 
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  .sign-in-button1:hover {
+    background-color: #3E90F0; /* Button background color on hover */
+    color: #F5F8FD;
+  }

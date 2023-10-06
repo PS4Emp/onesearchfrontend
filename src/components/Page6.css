@@ -1,0 +1,26 @@
+.admin-button .button-icon {
+    width: 24px; /* Adjust the icon size as needed */
+    margin-right: 10px; /* Add space between icon and text */
+    fill: #3E90F0; /* Set the icon color */
+    margin-left: 15px;
+  }
+
+  .admin-button {
+    width: 180px; /* Set the width */
+    height: 43px; /* Set the height */
+    background-color: #F5F8FD; /* Set the background color */
+    border: none; /* Remove the button outline */
+    display: flex; /* Allow flex layout for icon and text alignment */
+    justify-content: left; /* Center horizontally */
+    color: #3E90F0; /* Set the text color */
+    border-radius: 10px;
+    margin-right: 100px;
+      
+    }
+  
+    .logout-button {
+        position: absolute;
+        bottom: 10px; /* Adjust the distance from the bottom as needed */
+        width: 100%; /* Make the button span the full width of the side panel */
+      }
+      

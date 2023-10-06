@@ -1,0 +1,209 @@
+/* CSS for Page4 */
+.search-bar {
+    padding: 20px; /* Increase padding for a larger search bar */
+  }
+  
+  .search-input-container {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+  }
+  
+  .search-icon {
+    width: 24px; /* Adjust the icon size as needed */
+    margin-right: 10px;
+  }
+  
+  .search-input {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #333;
+    padding: 5px;
+  }
+  
+
+  .page-content {
+    display: grid;
+    grid-template-columns: auto 1px 1fr; /* Define columns: auto for side panel, 1px for line, 1fr for main content */
+    align-items: stretch; /* Stretch the height of the page */
+    height: 100vh;
+  }
+  
+  .side-panel {
+    padding: 40px;
+    background-color: #ffffff; /* Adjust the background color as needed */
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: flex-start;
+  }
+
+  .horizontal-line {
+    border: 1px solid #EDEDED; /* Outline border */
+    margin: 0;
+  }
+  
+  .main-content {
+    flex: 3;
+    padding: 20px;
+  }
+
+
+  .horizontal-box {
+    flex: 1; /* Expand to fill available width */
+    border: 1px solid #ccc; /* Outline border */
+    padding: 20px; /* Add padding inside the box */
+    background-color: #fff; /* Background color */
+    margin-right: 100px; /* Margin to create space between the box and the horizontal line */
+    display: flex;
+    flex-direction: column;
+  }
+
+  .product-logo {
+    display: block;
+    margin-bottom: 1px;
+    max-width: 100%;
+    align-self: flex-start;
+  }
+
+  .side-panel-button {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px; /* Add space between buttons */
+    text-decoration: none;
+    color: #000;
+    transition: color 0.2s, background-color 0.2s;
+  }
+
+  .side-panel-button:hover {
+    color: #3E90F0; /* Change to the desired hover color */
+    background-color: #F5F8FD;
+  }
+  
+  .button-icon {
+    width: 24px; /* Adjust the icon size as needed */
+    margin-right: 20px; /* Add space between icon and text */
+  }
+
+  .home-button {
+  width: 180px; /* Set the width */
+  height: 43px; /* Set the height */
+  background-color: #F5F8FD; /* Set the background color */
+  border: none; /* Remove the button outline */
+  display: flex; /* Allow flex layout for icon and text alignment */
+  justify-content: left; /* Center horizontally */
+  color: #3E90F0; /* Set the text color */
+  border-radius: 10px;
+  margin-right: 100px;
+    
+  }
+
+
+  /* Style for the Home icon */
+.home-button .button-icon {
+    width: 24px; /* Adjust the icon size as needed */
+    margin-right: 10px; /* Add space between icon and text */
+    fill: #3E90F0; /* Set the icon color */
+    margin-left: 15px;
+  }
+  
+  /* Style for the Home text */
+  .home-button span {
+    color: #3E90F0; /* Set the text color */
+    margin-left: 15px;
+  }
+
+  
+  
+  /* Style for changing the icon color */
+  side-panel {
+    fill: #3E90F0; /* Set the icon color */
+  }
+  
+  /* Style for the Home text */
+  .home-button span {
+    color: #3E90F0;
+  }
+
+  /* CSS for Page4 */
+/* ... (previous styles) */
+
+/* Style for the dropdown container */
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Style for the dropdown button */
+  .dropbtn {
+    background-color: #fff;
+    border: 1px solid #ccc; /* Add a border */
+    outline: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  /* Style for the dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  /* Style for dropdown options (links) */
+  .dropdown-content a {
+    color: #333;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Style for dropdown options on hover */
+  .dropdown-content a:hover {
+    background-color: #f2f2f2;
+  }
+  
+  /* Show the dropdown content when the dropdown button is clicked */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Adjust the position of the dropdown content */
+  .dropdown-content {
+    top: 40px; /* Position it below the button */
+    right: 0; /* Align it to the right */
+  }
+
+
+  
+  .logout-button {
+    position: absolute;
+    bottom: 10px; /* Adjust the distance from the bottom as needed */
+    width: 100%; /* Make the button span the full width of the side panel */
+  }
+
+  /* Add styles for button icons */
+
+.side-panel-button:hover .button-icon {
+  fill: #F5F8FD; /* Change icon color on hover */
+}
+
+.side-panel-button .button-icon {
+  margin-right: 10px; /* Adjust the spacing between icon and text */
+/* Adjust the icon height as needed */
+  fill: #F5F8FD; /* Initial icon color */
+  transition: fill 0.2s; /* Add icon color transition */
+}

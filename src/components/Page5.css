@@ -1,0 +1,110 @@
+.integrations-button {
+    width: 180px; /* Set the width */
+    height: 43px; /* Set the height */
+    background-color: #F5F8FD; /* Set the background color */
+    border: none; /* Remove the button outline */
+    display: flex; /* Allow flex layout for icon and text alignment */
+    justify-content: left; /* Center horizontally */
+    color: #3E90F0; /* Set the text color */
+    border-radius: 10px;
+    margin-right: 100px;
+      
+    }
+  
+  
+    /* Style for the Home icon */
+  .integrations-button .button-icon {
+      width: 24px; /* Adjust the icon size as needed */
+      margin-right: 10px; /* Add space between icon and text */
+      fill: #3E90F0; /* Set the icon color */
+      margin-left: 15px;
+    }
+    
+    /* Style for the Home text */
+    .integrations-button span {
+      color: #3E90F0; /* Set the text color */
+      margin-left: 15px;
+    }
+
+    .integrations-heading,
+.integrations-subheading {
+  font-family: 'Inter', sans-serif; /* Use the desired font */
+  font-weight: 400; /* Use the desired font weight */
+  color: #6D6B72; /* Use the desired text color */
+}
+
+.integrations-subheading {
+  margin-top: 8px; /* Adjust the margin as needed */
+}
+
+.box-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px; /* Adjust the gap between boxes as needed */
+  }
+  
+  .box {
+
+    width: 500px; /* Set the desired width */
+    height: 220px; /* Set the desired height */
+    border: 1px solid #ddd; /* Optional: Add a border for better visibility */
+    margin: 10px; /* Optional: Add margin for spacing between boxes */
+    border-radius: 10px;
+  }
+  
+  .app-name {
+    font-size: 14px; /* Adjust the font size as needed */
+    flex:  0 0 auto; /* Prevent the icon from stretching */
+    margin-right: 400px;
+    font-weight: bold;
+  }
+  
+  .app-description {
+    font-size: 12px; /* Adjust the font size as needed */
+     /* Prevent the icon from stretching */
+    margin-right: 270px;
+    flex-grow: 10;
+    white-space: normal;
+    /* font-size: 12px; /* Adjust the font size as needed */
+    white-space: normal; /* Allow text to wrap within the box */
+    overflow: norma; /* Hide overflowing content */
+    text-overflow: ellipsis; /* Show ellipsis for overflow text */
+    display: -webkit-box;
+    -webkit-line-clamp: ; /* Limit to two lines */
+    -webkit-box-orient: vertical;
+    max-height: 56px; 
+  }
+  
+  .connect-button {
+    background: transparent; /* Set a transparent background */
+    border: 1px solid #E7E7E7;
+    border-radius: 10px;
+    width: 190px; /* Remove border */
+    padding: 10px; /* Remove padding */
+    cursor: pointer; /* Add cursor pointer */
+    display: flex; /* Enable flex layout for centering */
+    align-items: center; /* Center align items vertically */
+    margin-left: 30px;
+  }
+  
+  /* Style the Connect icon image */
+  .connect-icon {
+    width: 24px; /* Adjust the width and height as needed */
+    height: 24px;
+    margin-left: 10px;
+    display: blockl;
+  }
+  .app-icon {
+    flex:  0 0 auto; /* Prevent the icon from stretching */
+    margin-right: 400px; /* Add space between the icon and app name */
+  }
+
+  .side-panel {
+    position: relative;
+  }
+  
+  .logout-button {
+    position: absolute;
+    bottom: 10px; /* Adjust the distance from the bottom as needed */
+    width: 100%; /* Make the button span the full width of the side panel */
+  }

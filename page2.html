@@ -1,0 +1,31 @@
+<!-- page2.html -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Page 2</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="page2.css">
+</head>
+<body>
+  <div class="page-content">
+    <div id="product-image-container">
+      <img id="product-image" src="proim.png" alt="Product Image">
+    </div>
+    <h1>Welcome to Page 2</h1>
+    <!-- Add other content here -->
+  </div>
+  <div class="bottom-button-container">
+    <button id="next-page-button">Continue</button>
+  </div>
+
+  <script>
+    // JavaScript to handle navigation
+    const nextPageButton = document.getElementById('next-page-button');
+    
+    nextPageButton.addEventListener('click', () => {
+      // Navigate to index.html (or another page)
+      window.location.href = 'page3.html';
+    });
+  </script>
+</body>
+</html>
